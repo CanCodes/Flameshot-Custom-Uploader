@@ -9,6 +9,7 @@ You can probably use this with other tools as well, but I created this for flame
 4. change the `server/app.js` file so that **TOKEN** is **YOUR** token.
 5. change the `local/main.py` file so that `config['token']` is YOUR token and `config['url']` is your URL (Keep the `/` at the end).
 6. Start app.js on your host.
+7. Install [Pyperclip](https://pypi.org/project/pyperclip/)
 
 Now here comes the fun part, since flameshot allows us to copy the image thru a command, we will use the bytes that flameshot gives us and convert them to an actual image with the help of our `main.py`.
 
